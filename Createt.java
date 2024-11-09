@@ -11,17 +11,15 @@ public class Createt {
             Connection con = DriverManager.getConnection(URL, username, password);
             
             // SQL insert query
-            String query = "INSERT INTO avr (id,name, roll_no, adress) VALUES (?,?, ?, ?)";
+            String query = "INSERT INTO avr (id,name) VALUES (?, ?)";
             
             // Create PreparedStatement
             PreparedStatement pstmt = con.prepareStatement(query);
             
             // Set the values
-            pstmt.setInt(1, 101);
-
-            pstmt.setString(2, "John Doe");
-            pstmt.setInt(3, 101);
-            pstmt.setString(4, "Hyderabad");
+            pstmt.setInt(1, 54434);
+            pstmt.setString(2, "John ");
+           
 
             // Execute the insert operation
             int rowsAffected = pstmt.executeUpdate();
