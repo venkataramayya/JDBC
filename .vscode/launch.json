@@ -6,33 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Createt",
+            "request": "launch",
+            "mainClass": "Createt",
+            "projectName": "JDBC_981d540a"
+        },
+        {
+            "type": "java",
+            "name": "AvrDatabase",
+            "request": "launch",
+            "mainClass": "AvrDatabase",
+            "projectName": "JDBC_981d540a"
+        },
+        {
+            "type": "java",
+            "name": "AvrDatabse",
+            "request": "launch",
+            "mainClass": "AvrDatabse",
+            "projectName": "JDBC_981d540a"
+        },
+        {
+            "type": "java",
             "name": "Attach",
             "request": "attach",
             "hostName": "localhost",
             "port": "<debug port of the debuggee>"
         },
-        
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
-        
-                {
-                    "type": "java",
-                    "name": "Launch Java Program",
-                    "request": "launch",
-                    "mainClass": "MySQLConnectionExample", // Replace with your class name
-                    "classPaths": [
-                        "libs/mysql-connector-java-8.3.0.jar",
-                        "bin"
-                    ]
-                },
-            
-        
-        
-        
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": "MySQLConnectionExample",
+            "classPaths": [
+                "libs/mysql-connector-java-8.3.0.jar",
+                "bin"
+            ]
+        },
         {
             "type": "java",
             "name": "MySQLConnectionExample",
