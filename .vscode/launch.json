@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Deletee",
+            "request": "launch",
+            "mainClass": "Deletee",
+            "projectName": "JDBC_981d540a"
+        },
+        {
+            "type": "java",
+            "name": "CrudOperations",
+            "request": "launch",
+            "mainClass": "CrudOperations",
+            "projectName": "JDBC_981d540a"
+        },
+        {
+            "type": "java",
             "name": "Createt",
             "request": "launch",
             "mainClass": "Createt",
